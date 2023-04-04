@@ -20,3 +20,9 @@ export default {
         </li>
     </ul>
 </template>
+<style scoped>
+.list-group-item{
+    color: black;
+}
+
+</style>
