@@ -10,8 +10,9 @@ export default {
         const router = useRouter();
        localStorage.removeItem('token');
        router.push("/login");
+
         }
-        
+        //fgdg
     
 }
 </script>
