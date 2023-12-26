@@ -9,6 +9,7 @@ export default {
     setup() {
         const router = useRouter();
        localStorage.removeItem('token');
+       localStorage.removeItem('token_admin');
        router.push("/login");
 
         }
